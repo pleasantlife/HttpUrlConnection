@@ -8,7 +8,7 @@ public class SearchPublicToiletPOIService {
 
         private RESULT RESULT;
 
-        private String list_total_count;
+        private int list_total_count;
 
         private Row[] row;
 
@@ -22,12 +22,12 @@ public class SearchPublicToiletPOIService {
             this.RESULT = RESULT;
         }
 
-        public String getList_total_count ()
+        public int getList_total_count ()
         {
             return list_total_count;
         }
 
-        public void setList_total_count (String list_total_count)
+        public void setList_total_count (int list_total_count)
         {
             this.list_total_count = list_total_count;
         }
